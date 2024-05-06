@@ -1,10 +1,12 @@
 const languages = {
   en: "Hello World",
-  de: "Hello Welt",
+  de: "Hallo Welt",
+  es: "Hola Mundo",
 };
-
-function wordTranslate(pre) {
-  return languages[pre];
+function helloWorld(prefix) {
+  if (!prefix) return languages["en"];
+  return languages[prefix];
 }
-
-console.log(wordTranslate("en"));
+console.log(helloWorld("de"));
+console.log(helloWorld());
+console.log(helloWorld("es"));
