@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TipCalculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <form action="?">
+      <fieldset>
+        <legend>Enter Bill Details</legend>
+        <label for="billAmount">Bill Amount:</label>
+        <input type="number" id="billAmountInput" />
+        <br />
+        <label for="tipRate">Tip Rate (%):</label>
+        <input type="number" id="tipRateInput" />
+        <br />
+        <label for="excludeVAT">Exclude VAT (%):</label>
+        <input type="number" id="excludeVATInput" />
+      </fieldset>
+      <button type="submit" id="btn">calculate</button>
+    </form>
+    <p>Result: <span id="result"></span></p>
+  </body>
+</html>
