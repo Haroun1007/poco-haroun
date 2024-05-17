@@ -21,6 +21,7 @@ main {
     cover;
   color: white;
   z-index: 1;
+  padding: 10px 50px;
 }
 main::before {
   content: "";
@@ -64,6 +65,7 @@ header button {
   border-radius: 5px;
   color: white;
   font-weight: 600;
+  cursor: pointer;
 }
 /* End Header  */
 /* Start content */
@@ -100,7 +102,7 @@ h1 {
   background-color: red;
   font-weight: 600;
   color: white;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 20px;
   font-size: 1.5rem;
   cursor: pointer;
